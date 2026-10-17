@@ -1,0 +1,44 @@
+[
+  {
+    "id": "POL-001",
+    "title": "Demora en la entrega",
+    "category": "delivery_delay",
+    "source": "demo/policies/delivery-delay.md",
+    "text": "Cuando un pedido llega después de la hora estimada, el agente debe verificar el estado del pedido y comparar la hora estimada con la hora real. Una compensación no es automática: se debe validar la política vigente y solicitar aprobación humana antes de confirmar cualquier crédito o reembolso. Informar al cliente con empatía y explicar el siguiente paso."
+  },
+  {
+    "id": "POL-002",
+    "title": "Pedido cancelado",
+    "category": "cancellation",
+    "source": "demo/policies/cancellation.md",
+    "text": "Antes de informar el resultado de una cancelación, verificar el estado de la orden. Si ya fue preparada o despachada, no prometer una cancelación ni un reembolso automático. Registrar el caso y transferirlo a un agente humano cuando la resolución dependa de validación operativa o financiera."
+  },
+  {
+    "id": "POL-003",
+    "title": "Producto faltante",
+    "category": "missing_item",
+    "source": "demo/policies/missing-item.md",
+    "text": "Cuando el cliente informa que falta un artículo, confirmar el pedido y el producto reportado. Solicitar únicamente la información necesaria para revisar el caso. Registrar el incidente y aplicar la política correspondiente. Cualquier compensación requiere validación y aprobación según las reglas del negocio."
+  },
+  {
+    "id": "POL-004",
+    "title": "Producto dañado",
+    "category": "damaged_item",
+    "source": "demo/policies/damaged-item.md",
+    "text": "Si un producto llegó dañado, mostrar empatía y registrar la descripción del incidente. Si hay riesgo para la seguridad de una persona, recomendar que deje de usar o consumir el producto y escalar el caso a un agente humano. No emitir diagnósticos ni asegurar compensaciones antes de la revisión."
+  },
+  {
+    "id": "POL-005",
+    "title": "Solicitud de agente humano",
+    "category": "human_handoff",
+    "source": "demo/policies/human-handoff.md",
+    "text": "Si el usuario pide hablar con una persona, o la solicitud es ambigua, sensible, de alto impacto o no puede resolverse con evidencia suficiente, crear un ticket de escalamiento. Resumir el motivo, el pedido relacionado y las verificaciones realizadas. Informar con claridad que el ticket de demostración no está conectado a un equipo de soporte real."
+  },
+  {
+    "id": "POL-006",
+    "title": "Datos y privacidad",
+    "category": "privacy",
+    "source": "demo/policies/privacy.md",
+    "text": "Usar solo los datos necesarios para resolver la solicitud. Nunca solicitar ni registrar contraseñas, claves API o datos completos de tarjetas. Para la demostración usar exclusivamente pedidos ficticios y no introducir datos reales de clientes. Limitar la exposición de información personal y registrar las acciones técnicas relevantes."
+  }
+]
